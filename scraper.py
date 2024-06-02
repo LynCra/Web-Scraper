@@ -14,7 +14,7 @@ chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 
 # Use raw string to specify the path
-service = Service(executable_path=r'C:\####\####\#####\#####\#####\Web_Scraper\chromedriver.exe')
+service = Service(executable_path=r'C:\####\####\#####\#####\#####\Web_Scraper\chromedriver.exe') #Add Chrome driver path on system
 
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
